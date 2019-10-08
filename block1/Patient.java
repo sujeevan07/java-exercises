@@ -11,13 +11,9 @@ public class Patient {
 	}
 	
 	public String toString() {
-		return "Name: "
-				+ this.name
-				+ ",Height: "
-				+ this.checkup.getHeight()
-				+ ",Weight: "
-				+ this.checkup.getWeight()
-				+ ",Temperature: "
-				+ this.checkup.getTemperature();
+		return "Name: " + this.name
+				+ ",Height: " + this.checkup.getHeight()
+				+ ",Weight: " + this.checkup.getWeight()
+				+ ",Temperature: " + this.checkup.getTemperature();
 	}
 }
