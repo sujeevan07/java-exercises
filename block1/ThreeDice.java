@@ -16,7 +16,6 @@ public class ThreeDice {
         		}
         	}
         }
-    	
         return count;
     }
 }

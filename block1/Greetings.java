@@ -16,14 +16,11 @@ public class Greetings {
 	}
 	
   public static void main(String[] args) {
-	  
 	  Scanner scanner = new Scanner(System.in);
 	  System.out.println("Enter a city: ");
 	  String city = scanner.nextLine();
 	  System.out.println(getGreeting(city));
 	  scanner.close();
-	  
-
   }
 }
 

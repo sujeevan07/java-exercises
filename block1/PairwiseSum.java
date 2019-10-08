@@ -11,7 +11,7 @@ public class PairwiseSum {
         for(int i = 0; i < values.length - 1; i++) {
         	results[i] = values[i] + values[i + 1];
         }
-    	
+        
         return results;
     }
 }

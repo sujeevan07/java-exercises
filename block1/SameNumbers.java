@@ -4,6 +4,11 @@ public class SameNumbers {
         int[] smallArr = {};
         int[] bigArr = {};
         
+        /* 
+        * Separation of smaller and bigger array
+        * so that we're able to look for the smaller
+        * one in the bigger one.
+        */
         if(values1.length < values2.length) {
         	bigArr = values2;
         	smallArr = values1;
@@ -26,7 +31,6 @@ public class SameNumbers {
         		return false;
         	}
         }
-    	
         return true;
     }
 }

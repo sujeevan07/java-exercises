@@ -40,11 +40,6 @@ public class Arrow {
         		}
         	}
         }
-    	
-    	
         return arrow;
     }
-    
-    
-    
 }

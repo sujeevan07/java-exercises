@@ -1,17 +1,16 @@
 public class MostFrequentDigit {
 
     public static int getMostFrequentDigit(String digitString) {
-        // TODO Implement the method
+
     	String[] arrNumbers = digitString.split("");
     	int[] results = new int[10];
     	
-    	// Initialize results array
+    	// Initialize results array with 0s.
     	for(int i = 0; i < results.length; i++) {
     		results[i] = 0;
     	}
     	
     	for(int i = 0; i < arrNumbers.length; i++) {
-    		
     		switch(arrNumbers[i]) {	
     			case "0":	results[0]++;
     						break;
@@ -34,7 +33,6 @@ public class MostFrequentDigit {
 				case "9":	results[9]++;
 							break;
     		}
-    		
     	}
     	
     	int biggestNum = 0;
@@ -46,7 +44,6 @@ public class MostFrequentDigit {
     			index = i;
     		}
     	}
-    	
     	return index;
     }
 }
