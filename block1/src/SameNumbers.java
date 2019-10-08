@@ -1,5 +1,3 @@
-
-
 public class SameNumbers {
 
     public static boolean sameNumbers(int[] values1, int[] values2) {

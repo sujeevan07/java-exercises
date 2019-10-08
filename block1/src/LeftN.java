@@ -1,5 +1,3 @@
-
-
 public class LeftN {
 
     public static String leftN(String str, int n) {

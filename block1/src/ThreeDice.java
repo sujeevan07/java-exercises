@@ -1,5 +1,3 @@
-
-
 public class ThreeDice {
 
     public static int getNbrOfCombinations(int sum) {

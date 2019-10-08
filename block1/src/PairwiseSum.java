@@ -1,5 +1,3 @@
-
-
 public class PairwiseSum {
 
     public static int[] pairwiseSum(int[] values) {

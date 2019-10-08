@@ -1,5 +1,3 @@
-
-
 public class Arrow {
 
     public static String arrow(int length, boolean doubleEnded, boolean doubleLine) {

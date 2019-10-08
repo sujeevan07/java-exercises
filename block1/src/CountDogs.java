@@ -1,5 +1,3 @@
-
-
 public class CountDogs {
 
     public static int countDogs(String input) {

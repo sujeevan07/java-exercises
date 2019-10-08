@@ -1,5 +1,3 @@
-
-
 public class MostFrequentDigit {
 
     public static int getMostFrequentDigit(String digitString) {
